@@ -16,7 +16,6 @@
 </head>
 
 <body>
-<p style="background-color: #1e1e2e; color: #ffffff; "></p>
     <section>
         <h1 style="text-align: center;margin: 50px 0;">PHP STUDENT DATABASE</h1>
         <div class="container">
