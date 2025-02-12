@@ -52,11 +52,13 @@
                                             <label for="">Grade</label>
                                             <select name="grade" id="grade" class="form-control" required >
                                                 <option value="">Select a Grade</option>
-                                                <option value="grade6" <?php if($Grade == "grade6"){ echo "Selected"; } ?> >Grade 6</option>
-                                                <option value="grade7" <?php if($Grade == "grade7"){ echo "Selected"; } ?> >Grade 7</option>
-                                                <option value="grade8" <?php if($Grade == "grade8"){ echo "Selected"; } ?> >Grade 8</option>
-                                                <option value="grade9" <?php if($Grade == "grade9"){ echo "Selected"; } ?> >Grade 9</option>
-                                                <option value="grade10" <?php if($Grade == "grade10"){ echo "Selected"; } ?> >Grade 10</option>
+                                                <option value="6" <?php if($Grade == "6"){ echo "Selected"; } ?> >Grade 6</option>
+                                                <option value="7" <?php if($Grade == "7"){ echo "Selected"; } ?> >Grade 7</option>
+                                                <option value="8" <?php if($Grade == "8"){ echo "Selected"; } ?> >Grade 8</option>
+                                                <option value="9" <?php if($Grade == "9"){ echo "Selected"; } ?> >Grade 9</option>
+                                                <option value="10" <?php if($Grade == "10"){ echo "Selected"; } ?> >Grade 10</option>
+                                                <option value="11" <?php if($Grade == "11"){ echo "Selected"; } ?> >Grade 11</option>
+                                                <option value="12" <?php if($Grade == "12"){ echo "Selected"; } ?> >Grade 12</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-lg-3">

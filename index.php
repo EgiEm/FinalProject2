@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP-Final-Project</title>
     <!-- CSS only -->
-    <link href="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -18,7 +18,7 @@
 
 <body>
     <section>
-        <h1 style="text-align: center;">PHP STUDENT DATABASE</h1>
+        <h1 style="text-align: center;">STUDENT DATABASE</h1>
         <div class="container">
             <div class="card">
                 <div class="card-body">
@@ -32,11 +32,13 @@
                                 <label for="">Grade</label>
                                 <select name="grade" id="grade" class="form-control" required>
                                     <option value="">Select a Grade</option>
-                                    <option value="grade6">Grade 6</option>
-                                    <option value="grade7">Grade 7</option>
-                                    <option value="grade8">Grade 8</option>
-                                    <option value="grade9">Grade 9</option>
-                                    <option value="grade10">Grade 10</option>
+                                    <option value="6">Grade 6</option>
+                                    <option value="7">Grade 7</option>
+                                    <option value="8">Grade 8</option>
+                                    <option value="9">Grade 9</option>
+                                    <option value="10">Grade 10</option>
+                                    <option value="11">Grade 11</option>
+                                    <option value="12">Grade 12</option>
                                 </select>
                             </div>
                             <div class="form-group col-lg-3">
