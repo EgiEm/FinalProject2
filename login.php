@@ -80,8 +80,7 @@
       <div class="error"><?php echo $error; ?></div>
     <?php endif; ?>
 
-    <form method="post">
-    <form method="POST" action="">
+    <form method="POST" action="checkUser.php">
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
         <button type="submit">LogIn</button>

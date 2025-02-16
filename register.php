@@ -80,15 +80,14 @@
       <div class="error"><?php echo $error; ?></div>
     <?php endif; ?>
 
-    <form method="post">
-    <form method="POST" action="">
+    <form method="POST" action="addUser.php">
+        <input type="text" name="email" placeholder="email@email.com" required>
         <input type="text" name="username" placeholder="Username" required>
         <input type="password" name="password" placeholder="Password" required>
         <button type="submit">Register</button>
     </form>
     <p>Already have an account? <a href="login.php">Login here</a></p>
 </body>
-      </form>
   </div>
 
 </body>
